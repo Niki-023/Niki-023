@@ -23,10 +23,11 @@ I am currently pursuing a **Master’s in Computer Science**, diving into machin
 
 ## 📂 My Work & Projects
 
-Check out some of my work and projects here:  
-- GitHub: [https://github.com/Niki-023](https://github.com/Niki-023)  
-- Kaggle: [https://www.kaggle.com/nikkpanchal023](https://www.kaggle.com/nikkpanchal023)  
-- Medium: [https://medium.com/@nikk.23panchal](https://medium.com/@nikk.23panchal)  
+
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikita-panchal--/)  
+- [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/nikkpanchal023)  
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nikk.23panchal)  
+ 
 
 ---
 
