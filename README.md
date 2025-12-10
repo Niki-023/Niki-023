@@ -31,14 +31,4 @@ Beyond academics, I enjoy exploring **data analytics challenges**, building smal
 
 ---
 
-## 📊 My GitHub Stats
 
-![Nikita's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Niki-023&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Niki-023&layout=compact&theme=radical)  
-
----
-
-## 🐍 Fun Stuff
-
-Check out my **Snake Game** on my GitHub contribution graph:  
-[![GitHub Snake](https://raw.githubusercontent.com/Niki-023/Niki-023/output/github-contribution-grid-snake.svg)](https://github.com/Niki-023)
