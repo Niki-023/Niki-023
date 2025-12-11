@@ -28,7 +28,7 @@ Beyond academics, I enjoy exploring **data analytics challenges**, building smal
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikita-panchal--/)  
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/nikkpanchal023)  
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nikk.23panchal)  
-[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobe&logoColor=white)](https://github.com/Niki-023/portfolio/raw/main/Nikita_resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobe&logoColor=white)](https://github.com/Niki-023/Niki-023/raw/main/Nikita_Resume.pdf)
 ---
 
 
