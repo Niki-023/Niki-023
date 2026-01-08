@@ -8,46 +8,70 @@
 </head>
 <body>
 
-  <header>
-    <h1>Nikita</h1>
-    <p>Master's in Computer Science | Aspiring Data Scientist</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m Nikita 👋</h1>
+      <h2>Master's in Computer Science | Aspiring Data Scientist</h2>
+      <p class="hero-text">I explore data, uncover patterns, and build AI solutions to solve real-world problems.</p>
+      <a href="#projects" class="btn">View My Projects</a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/profile.jpg" alt="Nikita" />
+    </div>
   </header>
 
+  <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi there, I’m Nikita 👋</p>
-    <p>I’ve always been fascinated by patterns—whether in numbers, behaviors, or the world around me. This curiosity led me to data science, where I explore the stories hidden in data to inform decisions, inspire ideas, and solve real-world problems.</p>
+    <div class="about-cards">
+      <div class="card">
+        <h3>Background</h3>
+        <p>Currently pursuing a Master’s in Computer Science, focusing on Machine Learning, AI, and NLP.</p>
+      </div>
+      <div class="card">
+        <h3>Passion</h3>
+        <p>Fascinated by patterns in data, exploring insights to solve real-world problems.</p>
+      </div>
+      <div class="card">
+        <h3>Projects</h3>
+        <p>Building small projects in Python, ML, and Data Analytics to turn insights into meaningful outcomes.</p>
+      </div>
+    </div>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Key Interests & Skills</h2>
-    <ul>
-      <li>Machine Learning (ML)</li>
-      <li>Data Analytics & Visualization</li>
-      <li>Statistical Modeling & Predictive Analytics</li>
-      <li>Data-driven Decision Making</li>
-      <li>Natural Language Processing (NLP)</li>
-    </ul>
+    <div class="skills-list">
+      <span class="skill">Machine Learning (ML)</span>
+      <span class="skill">Data Analytics & Visualization</span>
+      <span class="skill">Statistical Modeling</span>
+      <span class="skill">Predictive Analytics</span>
+      <span class="skill">Natural Language Processing (NLP)</span>
+      <span class="skill">Python, Pandas, NumPy</span>
+      <span class="skill">Scikit-learn, Matplotlib, Seaborn</span>
+      <span class="skill">SQL, Tableau</span>
+    </div>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <div id="projects-container"></div>
+    <div id="projects-container">
+      <!-- JavaScript will load GitHub repos here -->
+    </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">LinkedIn</a></li>
       <li><a href="https://www.kaggle.com/Niki-023" target="_blank">Kaggle</a></li>
       <li><a href="https://medium.com/@your-medium" target="_blank">Medium</a></li>
+      <li><a href="Resume.pdf" target="_blank">Resume</a></li>
     </ul>
   </section>
 

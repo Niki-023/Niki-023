@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -6,21 +7,114 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #2d2d2d;
+h1, h2, h3 {
+  margin: 0.5rem 0;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6b5b95, #feb236);
   color: white;
-  padding: 1rem;
+  padding: 4rem 2rem;
   text-align: center;
 }
 
-nav a {
-  margin: 0 1rem;
-  color: white;
-  text-decoration: none;
+.hero-content {
+  max-width: 600px;
+  margin: 1rem;
 }
 
-section {
-  padding: 2rem;
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: white;
+  color: #6b5b95;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff0f5;
+}
+
+.hero-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+/* About Section */
+#about {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skills Section */
+#skills {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.skill {
+  background-color: #6b5b95;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Projects Section */
+#projects {
+  padding: 3rem 1rem;
   text-align: center;
 }
 
@@ -36,4 +130,33 @@ section {
   padding: 1rem;
   width: 250px;
   background: white;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+#projects-container div:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Section */
+#contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+#contact a {
+  color: #6b5b95;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
