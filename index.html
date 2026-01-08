@@ -13,7 +13,7 @@
     <div class="hero-content">
       <h1>Hi, I’m Nikita 👋</h1>
       <h2>Master's in Computer Science | Aspiring Data Scientist</h2>
-      <p class="hero-text">I explore data, uncover patterns, and build AI solutions to solve real-world problems.</p>
+      <p class="hero-text">I explore data, uncover patterns, and build AI & ML solutions to solve real-world problems.</p>
       <a href="#projects" class="btn">View My Projects</a>
     </div>
     <div class="hero-image">
@@ -35,23 +35,27 @@
       </div>
       <div class="card">
         <h3>Projects</h3>
-        <p>Building small projects in Python, ML, and Data Analytics to turn insights into meaningful outcomes.</p>
+        <p>Building Python & ML projects, turning insights into meaningful outcomes.</p>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills / Tools Section -->
   <section id="skills">
-    <h2>Key Interests & Skills</h2>
+    <h2>Skills & Tools</h2>
     <div class="skills-list">
+      <span class="skill">Python</span>
+      <span class="skill">Pandas</span>
+      <span class="skill">NumPy</span>
+      <span class="skill">Scikit-learn</span>
+      <span class="skill">Matplotlib</span>
+      <span class="skill">Seaborn</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Tableau</span>
       <span class="skill">Machine Learning (ML)</span>
-      <span class="skill">Data Analytics & Visualization</span>
-      <span class="skill">Statistical Modeling</span>
-      <span class="skill">Predictive Analytics</span>
       <span class="skill">Natural Language Processing (NLP)</span>
-      <span class="skill">Python, Pandas, NumPy</span>
-      <span class="skill">Scikit-learn, Matplotlib, Seaborn</span>
-      <span class="skill">SQL, Tableau</span>
+      <span class="skill">Predictive Analytics</span>
+      <span class="skill">Data Visualization</span>
     </div>
   </section>
 
@@ -59,7 +63,7 @@
   <section id="projects">
     <h2>Projects</h2>
     <div id="projects-container">
-      <!-- JavaScript will load GitHub repos here -->
+      <!-- JS will load GitHub repos here -->
     </div>
   </section>
 
@@ -80,5 +84,14 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
 </body>
 </html>

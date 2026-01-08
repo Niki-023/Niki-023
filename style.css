@@ -1,10 +1,11 @@
-/* General Styles */
+/* General */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
@@ -65,10 +66,11 @@ h1, h2, h3 {
   margin: 1rem;
 }
 
-/* About Section */
+/* About Me Section */
 #about {
   padding: 3rem 1rem;
   text-align: center;
+  background-color: #fff;
 }
 
 .about-cards {
@@ -79,7 +81,8 @@ h1, h2, h3 {
 }
 
 .card {
-  background: white;
+  background: #6b5b95;
+  color: white;
   border-radius: 10px;
   padding: 1.5rem;
   width: 250px;
@@ -95,6 +98,7 @@ h1, h2, h3 {
 #skills {
   padding: 2rem 1rem;
   text-align: center;
+  background-color: #f0e5ff;
 }
 
 .skills-list {
@@ -105,17 +109,19 @@ h1, h2, h3 {
 }
 
 .skill {
-  background-color: #6b5b95;
-  color: white;
+  background-color: #feb236;
+  color: #6b5b95;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* Projects Section */
 #projects {
   padding: 3rem 1rem;
   text-align: center;
+  background-color: #fff;
 }
 
 #projects-container {
@@ -129,23 +135,26 @@ h1, h2, h3 {
   border: 1px solid #ccc;
   padding: 1rem;
   width: 250px;
-  background: white;
+  background: #f9f9f9;
   border-radius: 10px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 #projects-container div:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
 }
 
 /* Contact Section */
 #contact {
   padding: 2rem 1rem;
   text-align: center;
+  background-color: #6b5b95;
+  color: white;
 }
 
 #contact a {
-  color: #6b5b95;
+  color: #feb236;
   text-decoration: none;
 }
 
