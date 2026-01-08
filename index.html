@@ -1,97 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikita's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikita | Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Hi, I’m Nikita 👋</h1>
-      <h2>Master's in Computer Science | Aspiring Data Scientist</h2>
-      <p class="hero-text">I explore data, uncover patterns, and build AI & ML solutions to solve real-world problems.</p>
-      <a href="#projects" class="btn">View My Projects</a>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Nikita</div>
+    <div class="nav-links">
+      <a href="#intro">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
     </div>
-    <div class="hero-image">
-      <img src="assets/profile.jpg" alt="Nikita" />
-    </div>
-  </header>
+  </nav>
 
-  <!-- About Me Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="about-cards">
-      <div class="card">
-        <h3>Background</h3>
-        <p>Currently pursuing a Master’s in Computer Science, focusing on Machine Learning, AI, and NLP.</p>
-      </div>
-      <div class="card">
-        <h3>Passion</h3>
-        <p>Fascinated by patterns in data, exploring insights to solve real-world problems.</p>
-      </div>
-      <div class="card">
-        <h3>Projects</h3>
-        <p>Building Python & ML projects, turning insights into meaningful outcomes.</p>
-      </div>
-    </div>
+  <!-- Introduction -->
+  <section id="intro" class="section intro fade-in">
+    <img src="assets/profile.jpg" alt="Nikita" class="profile-pic" />
+    <h1>Hi, I'm Nikita</h1>
+    <h2>Master’s in Computer Science · Aspiring Data Scientist</h2>
+    <p>
+      I design data-driven solutions using Machine Learning, Analytics, and AI
+      to uncover patterns and solve real-world problems.
+    </p>
+    <a href="#projects" class="btn-neon">Explore My Work</a>
   </section>
 
-  <!-- Skills / Tools Section -->
-  <section id="skills">
-    <h2>Skills & Tools</h2>
-    <div class="skills-list">
+  <!-- Projects -->
+  <section id="projects" class="section fade-in">
+    <h2 class="section-title">Portfolio / Projects</h2>
+    <div id="projects-container" class="projects-grid"></div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section fade-in">
+    <h2 class="section-title">Skills & Tools</h2>
+    <div class="skills-grid">
       <span class="skill">Python</span>
       <span class="skill">Pandas</span>
       <span class="skill">NumPy</span>
       <span class="skill">Scikit-learn</span>
-      <span class="skill">Matplotlib</span>
-      <span class="skill">Seaborn</span>
+      <span class="skill">Machine Learning</span>
+      <span class="skill">NLP</span>
+      <span class="skill">Data Analytics</span>
+      <span class="skill">Data Visualization</span>
       <span class="skill">SQL</span>
       <span class="skill">Tableau</span>
-      <span class="skill">Machine Learning (ML)</span>
-      <span class="skill">Natural Language Processing (NLP)</span>
-      <span class="skill">Predictive Analytics</span>
-      <span class="skill">Data Visualization</span>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div id="projects-container">
-      <!-- JS will load GitHub repos here -->
+  <!-- Blog -->
+  <section id="blog" class="section fade-in">
+    <h2 class="section-title">Blog</h2>
+    <div class="blog-card">
+      <h3>Writing about Data Science & AI</h3>
+      <p>
+        I share my learning journey, project breakdowns, and concepts in
+        Machine Learning and Analytics.
+      </p>
+      <a href="https://medium.com/" target="_blank" class="btn-neon">
+        Read on Medium
+      </a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
+  <!-- Contact -->
+  <section id="contact" class="section fade-in">
+    <h2 class="section-title">Contact</h2>
     <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">LinkedIn</a></li>
-      <li><a href="https://www.kaggle.com/Niki-023" target="_blank">Kaggle</a></li>
-      <li><a href="https://medium.com/@your-medium" target="_blank">Medium</a></li>
-      <li><a href="Resume.pdf" target="_blank">Resume</a></li>
-    </ul>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://www.kaggle.com/Niki-023" target="_blank">Kaggle</a>
+      <a href="https://github.com/Niki-023" target="_blank">GitHub</a>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2026 Nikita</p>
+    © 2026 Nikita · Data Science Portfolio
   </footer>
 
   <script src="script.js"></script>
-  <script>
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script>
 </body>
 </html>
